@@ -1,0 +1,35 @@
+$breakpoints: (
+    mobile: 320px,
+    big-mobile: 425,
+    phablet: 600px,
+    tablet: 768px,
+    desktop: 960px,
+    wide: 1400px,
+    hd: 1920px
+);
+
+@mixin media-querie($type) {
+    @media only screen and (min-width: map-get($breakpoints, $type)) {
+        @content;
+    }
+}
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+  }
+  @mixin for-tablet-portrait-up {
+    @media (min-width: 600px) { @content; }
+  }
+  @mixin for-tablet-landscape-up {
+    @media (min-width: 960px) { @content; }
+  }
+  @mixin for-desktop-up {
+    @media (min-width: 1400px) { @content; }
+  }
+  @mixin for-big-desktop-up {
+    @media (min-width: 1800px) { @content; }
+  }
+/*Ejemplo de uso*/
+
+// @include media-querie('tablet') {
+//     font-size: $fz-m;
+// }

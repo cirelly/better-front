@@ -1,0 +1,142 @@
+// PADDINGS
+
+.u-pr-32{
+    padding-right: to-rem(32)!important;
+}
+.u-pr-32-desktop{
+    @include media-querie('desktop'){
+        padding-right: to-rem(32)!important;
+    }
+}
+.u-pt-32{
+    padding-top: to-rem(32)!important;
+}
+.u-pt-36{
+    padding-top: to-rem(32)!important;
+}
+.u-pt-48{
+    padding-top: to-rem(48)!important;
+}
+.u-pt-0-desktop{
+    @include media-querie('desktop'){
+        padding-top: to-rem(0)!important;
+    }
+}
+.u-pt-16-desktop{
+    @include media-querie('desktop'){
+        padding-top: to-rem(16)!important;
+    }
+}
+.u-pt-24-desktop{
+    @include media-querie('desktop'){
+        padding-top: to-rem(24)!important;
+    }
+}
+.u-pt-48-desktop{
+    @include media-querie('desktop'){
+        padding-top: to-rem(48)!important;
+    }
+}
+.u-pb-16{
+    padding-bottom: to-rem(16)!important;
+}
+.u-pb-32{
+    padding-bottom: to-rem(32)!important;
+}
+.u-pb-50{
+    padding-bottom: to-rem(50)!important;
+}
+
+.u-pb-48-desktop{
+    @include media-querie('desktop'){
+        padding-bottom: to-rem(48)!important;
+    }
+}
+.u-pb-75-desktop{
+    @include media-querie('desktop'){
+        padding-bottom: to-rem(75)!important;
+    }
+}
+.u-pb-100-desktop{
+    @include media-querie('desktop'){
+        padding-bottom: to-rem(100)!important;
+    }
+}
+.u-prl-75-wide{
+    @include media-querie('wide'){
+        padding-right: to-rem(75)!important;
+        padding-left: to-rem(75)!important;
+    }
+}
+.u-pr-100-wide{
+    @include media-querie('wide'){
+        padding-right: to-rem(100)!important;
+    }
+}
+
+
+
+// MARGINS
+.u-mt--20-desktop{
+    margin-top:to-rem(-20);
+}
+.u-mt--28{
+    margin-top:to-rem(-28);
+}
+.u-mt--65-desktop{
+    @include media-querie('desktop'){
+        margin-top:to-rem(-65);
+    }
+}
+.u-mt--85-desktop{
+    @include media-querie('desktop'){
+        margin-top:to-rem(-85);
+    }
+}
+
+.u-mr-36{
+    margin-right: to-rem(36)!important;
+}
+.u-mr-32-desktop{
+    @include media-querie('desktop'){
+        margin-right: to-rem(32)!important;
+    }
+}
+.u-ml-32-desktop{
+    @include media-querie('desktop'){
+        margin-left: to-rem(32)!important;
+    }
+}
+.u-mr-50-desktop{
+    @include media-querie('desktop'){
+        margin-right: to-rem(50)!important;
+    }
+}
+.u-mb-16{
+    margin-bottom: to-rem(16);
+}
+.u-mt-16{
+    margin-top: to-rem(16)!important;
+}
+.u-mt-32{
+    margin-top: to-rem(32)!important;
+}
+.u-mt-48-desktop{
+    @include media-querie('desktop'){
+        margin-top: to-rem(48)!important;
+    }
+}
+.u-ml-50-desktop{
+    @include media-querie('desktop'){
+        margin-left: to-rem(50)!important;
+    }
+}
+.u-mt-40-desktop{
+    @include media-querie('desktop'){
+        margin-top:to-rem(40)!important;
+    }
+}
+.u-centerMode{
+    margin: 0 auto;
+}
+

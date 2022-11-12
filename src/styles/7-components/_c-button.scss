@@ -1,0 +1,54 @@
+.c-button{  
+    background: $btn-gradient;
+    border-style: none;
+    cursor:pointer;
+    transition: background-color .3s ease;
+    color:$white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    box-sizing: border-box;
+    height: 45px;
+    width: 165px;
+    border-radius: 12px;
+    @include media-querie('desktop'){
+        font-size: 16px;
+    }
+    &:hover{
+        background: $btn-hover;
+    }
+    &:disabled{
+        // border: 1px solid #999999;
+        background: $gray400;
+        color: $gray500;
+      }
+      
+}
+
+.c-textButton{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: $green100;
+    border: none;
+    cursor:pointer;
+    background-color: inherit;
+    text-align: center;
+    &:hover{
+        opacity: 0.4;
+    }
+    &--delete{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        border: none;
+        cursor:pointer;
+        background-color: inherit;
+        text-align: center;
+        color: red;
+        align-items: center;
+        &:hover{
+            opacity: 0.4;
+        }
+    }
+}

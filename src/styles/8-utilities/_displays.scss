@@ -1,0 +1,24 @@
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center!important;
+}
+.flex-start-desktop{
+    @include media-querie('desktop'){
+        align-items: flex-start!important;
+        justify-content: flex-start!important;
+
+    }
+}
+.flex-column-desktop{
+    @include media-querie('desktop'){
+        flex-direction: column!important;
+    }
+}
